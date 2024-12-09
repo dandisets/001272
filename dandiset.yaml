@@ -10,10 +10,10 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei; National
-  Institutes of Health (2024) Excitation and polarization of isolated neurons by high-frequency
-  sine waves in the context of temporal interference stimulation II (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001272/draft
+citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2024)
+  Excitation and polarization of isolated neurons by high-frequency sine waves in
+  the context of temporal interference stimulation II (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/001272/draft
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -38,8 +38,10 @@ contributor:
   - dcite:ProjectLeader
   schemaKey: Person
 - awardNumber: 5R21EY034803
-  includeInCitation: true
+  includeInCitation: false
   name: National Institutes of Health
+  roleName:
+  - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-12-04T14:35:22.871630+00:00'
 description: Excitation and polarization of isolated neurons by high-frequency sine
