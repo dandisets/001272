@@ -7,6 +7,7 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: ''
 assetsSummary:
   approach: []
   dataStandard:
@@ -14,18 +15,18 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 22121716
-  numberOfFiles: 32
-  numberOfSubjects: 2
+  numberOfBytes: 44171195
+  numberOfFiles: 65
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
     name: Rattus norvegicus - Norway rat
     schemaKey: SpeciesType
   variableMeasured: []
-citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2024)
+citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2025)
   The Use of Di8-ANEPPS to Evaluate Neuronal Sensitivity to Unmodulated Sine Waves
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001272/draft
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001272/draft
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -56,18 +57,13 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-12-04T14:35:22.871630+00:00'
-description: "Experiments were conducted using a potentiometric dye, Di8-ANEPPS, which
-  has a distinct molecular structure and detects voltage via an electrochromic mechanism,
-  unlike the photo-induced electron transfer mechanism in FluoVolt. The aim of these
-  experiments was to rule out the possibility that action potentials that were recorded
-  using FluoVolt dye (published in other DANDIsets) were not influenced by dye itself
-  when applying intense sinewaves. To address this, control experiments were conducted
-  with an alternative potentiometric dye, Di8-ANEPPS, which differs in molecular structure
-  and operates through an electrochromic mechanism of voltage detection, unlike the
-  photo-induced electron transfer mechanism utilized by FluoVolt. Experiments were
-  conducted on eight neurons, with electric field strengths applied in a randomized
-  order. \nThese experiments were carried out in eight neurons, with varying electric
-  field strengths applied in a randomized sequence. \n08 06 24"
+description: Experiments were conducted using the potentiometric dye Di8-ANEPPS, which
+  detects voltage through an electrochromic mechanism, differing from the photo-induced
+  electron transfer mechanism. The goal was to ensure that action potentials recorded
+  with FluoVolt (published in other DANDIsets) were not influenced by the dye when
+  applying intense sinewaves. Control experiments were performed using Di8-ANEPPS,
+  chosen for its distinct molecular structure and voltage detection method. This study
+  was partially supported by the NIH Brain Initiative (NEI R21EY034803).
 ethicsApproval: []
 id: DANDI:001272/draft
 identifier: DANDI:001272
