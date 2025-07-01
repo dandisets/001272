@@ -7,7 +7,6 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
-acknowledgement: ''
 assetsSummary:
   approach: []
   dataStandard:
@@ -57,6 +56,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-12-04T14:35:22.871630+00:00'
+datePublished: '2025-07-01T16:22:46.849532+00:00'
 description: Experiments were conducted using the potentiometric dye Di8-ANEPPS, which
   detects voltage through an electrochromic mechanism, differing from the photo-induced
   electron transfer mechanism. The goal was to ensure that action potentials recorded
@@ -67,18 +67,34 @@ description: Experiments were conducted using the potentiometric dye Di8-ANEPPS,
 ethicsApproval: []
 id: DANDI:001272/draft
 identifier: DANDI:001272
-keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001272/versions/draft/assets/
 name: The Use of Di8-ANEPPS to Evaluate Neuronal Sensitivity to Unmodulated Sine Waves
-protocol: []
-relatedResource: []
+publishedBy:
+  endDate: '2025-07-01T16:22:46.849532+00:00'
+  id: urn:uuid:f3b131f4-b5d1-4d1e-bf25-4c9d1227ff95
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-07-01T16:22:46.849532+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:d00d3948-edf6-4eb4-8627-dc7465984a28
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
+relatedResource:
+- identifier: doi.org/10.1016/j.xcrp.2025.102660
+  name: Excitation and polarization of isolated neurons by high-frequency sine waves
+    for temporal interference stimulation
+  relation: dcite:IsPublishedIn
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.xcrp.2025.102660
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-studyTarget: []
 url: https://dandiarchive.org/dandiset/001272/draft
 version: draft
 wasGeneratedBy:
