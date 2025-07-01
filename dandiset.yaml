@@ -25,7 +25,7 @@ assetsSummary:
   variableMeasured: []
 citation: Silkuniene, Giedre; Kim, Vitalii; Semenov, Iurii; Pakhomov, Andrei (2025)
   The Use of Di8-ANEPPS to Evaluate Neuronal Sensitivity to Unmodulated Sine Waves
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001272/draft
+  (Version 0.250701.1622) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001272/0.250701.1622
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -64,13 +64,14 @@ description: Experiments were conducted using the potentiometric dye Di8-ANEPPS,
   applying intense sinewaves. Control experiments were performed using Di8-ANEPPS,
   chosen for its distinct molecular structure and voltage detection method. This study
   was partially supported by the NIH Brain Initiative (NEI R21EY034803).
+doi: 10.48324/dandi.001272/0.250701.1622
 ethicsApproval: []
-id: DANDI:001272/draft
+id: DANDI:001272/0.250701.1622
 identifier: DANDI:001272
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001272/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001272/0.250701.1622/assets.yaml
 name: The Use of Di8-ANEPPS to Evaluate Neuronal Sensitivity to Unmodulated Sine Waves
 publishedBy:
   endDate: '2025-07-01T16:22:46.849532+00:00'
@@ -95,8 +96,8 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-url: https://dandiarchive.org/dandiset/001272/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001272/0.250701.1622
+version: 0.250701.1622
 wasGeneratedBy:
 - identifier: 5R21EY034803
   name: Next Gen Temporal Interference Stimulation Non-Invasive Neuromodulation
