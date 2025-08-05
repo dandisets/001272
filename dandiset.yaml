@@ -55,8 +55,13 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- awardNumber: 1R21EY034258
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-12-04T14:35:22.871630+00:00'
-datePublished: '2025-07-01T16:22:46.849532+00:00'
+datePublished: '2025-08-05T13:58:55.060795+00:00'
 description: Experiments were conducted using the potentiometric dye Di8-ANEPPS, which
   detects voltage through an electrochromic mechanism, differing from the photo-induced
   electron transfer mechanism. The goal was to ensure that action potentials recorded
@@ -73,13 +78,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001272/versions/draft/assets/
 name: The Use of Di8-ANEPPS to Evaluate Neuronal Sensitivity to Unmodulated Sine Waves
 publishedBy:
-  endDate: '2025-07-01T16:22:46.849532+00:00'
-  id: urn:uuid:f3b131f4-b5d1-4d1e-bf25-4c9d1227ff95
+  endDate: '2025-08-05T13:58:55.060795+00:00'
+  id: urn:uuid:f92c3cc3-ffbf-4697-924e-cc0f034c8b69
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-07-01T16:22:46.849532+00:00'
+  startDate: '2025-08-05T13:58:55.060795+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:d00d3948-edf6-4eb4-8627-dc7465984a28
+  - id: urn:uuid:e40d35ec-fcd7-4419-9641-f396d9555711
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -100,4 +105,7 @@ version: draft
 wasGeneratedBy:
 - identifier: 5R21EY034803
   name: Next Gen Temporal Interference Stimulation Non-Invasive Neuromodulation
+  schemaKey: Project
+- identifier: 1R21EY034258
+  name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
   schemaKey: Project
